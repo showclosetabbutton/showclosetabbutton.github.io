@@ -95,6 +95,7 @@ Show Close Tab Button is an open-source MIT-licensed browser extension designed 
 [![Product Name Screen Shot][product-screenshot]](https://showclosetabbutton.github.io)
 
 
+<img src="images/screenshot.png" alt="Logo">
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
