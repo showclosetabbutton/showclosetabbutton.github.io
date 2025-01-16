@@ -92,7 +92,7 @@ Show a close button on each active tab to close it
 
 Show Close Tab Button is an open-source MIT-licensed browser extension designed to show a close button on each active tab to close it. You can close the current tab with a simple click of a button.It doesn't show ads and doesn't send user's data. 
 
-[![Product Name Screen Shot][product-screenshot]](images/show-close-tab-button-screenshot.png)
+    <img src="images/show-close-tab-button-screenshot.png" alt="screenshot" width="80" height="80">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
