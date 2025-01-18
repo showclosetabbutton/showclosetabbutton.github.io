@@ -3,7 +3,11 @@
   "name": "Show Close Tab Button",
   "version": "1.0",
   "description": "Show a close button on each active tab to close it.",
-  "permissions": ["tabs", "activeTab", "scripting"],
+  "permissions": ["tabs", "activeTab", "scripting",
+	  "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
   "background": {
     "scripts": ["background.js"]
   },
@@ -23,7 +27,7 @@
       "16": "icons/icon-16.png",
       "48": "icons/icon-48.png",
       "128": "icons/icon-128.png"
-  }
+  },
   "browser_specific_settings": {
       "gecko":{ 
       "id": "showclosetabbutton@github.io"

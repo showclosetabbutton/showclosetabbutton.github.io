@@ -1,4 +1,5 @@
-// 創建一個按鈕
+//console.log('load content script');
+// create a close button
 const closeButton = document.createElement("button");
 closeButton.textContent = "X";
 closeButton.id= "addon-show-tab-close-button";
@@ -19,10 +20,11 @@ closeButton.style.cursor="pointer";
 
 
 
-// 將按鈕插入到頁面
+// add the button to current page
 document.body.appendChild(closeButton);
+//console.log('append close button to the page');
 
-// 點擊按鈕時，發送訊息給背景腳本，要求關閉分頁
+// click the button to send a message to background script. request close current tab 
 closeButton.addEventListener("click", () => {
   browser.runtime.sendMessage({ action: "closeTab" });
 });
