@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	 <link rel="icon" href="images/favicon.png" type="image/png">
-<title>Show Close Tab Button</title>
+<title>Show Pocket Button</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -166,24 +166,24 @@ section::after {
 <header>
  <h2 style="text-shadow: 2px 2px orange; display: flex; align-items: center; font-size: 2rem;">
     <img src="images/logo.png" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
-    Show Close Tab Button
+    Show Pocket Button
   </h2></header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="https://github.com/showclosetabbutton">GitHub</a></li>
-      <li><a href="https://x.com/showclosetabbut">Twitter</a></li> 
+      <li><a href="https://github.com/showpocketbutton">GitHub</a></li>
+      <li><a href="https://x.com/showpocketbut">Twitter</a></li> 
      
     </ul>
   </nav>
   
   <article>
- <h1>How to show close tab button on each active tab?</h1>
-    <p>Install Show Close Tab Button browser extension.</p>
+ <h1>How to show pocket button on each active tab?</h1>
+    <p>Install Show Pocket Button browser extension.</p>
     <div class="button-container">
-    <button class="button" onclick="window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/show-close-tab-button/'">
-      <img src="images/firefox-logo.png" alt="firefox logo"> Show Close Tab Button for Firefox    </button>
+    <button class="button" onclick="window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/show-pocket-button/'">
+      <img src="images/firefox-logo.png" alt="firefox logo"> Show Pocket Button for Firefox    </button>
     <button class="button" onclick="window.location.href = 'https://paypal.me/zhihaushiu'">
       <img src="images/paypal-logo.png" alt="paypal logo"> Paypal Me
     </button>
@@ -198,12 +198,12 @@ section::after {
 
 <!-- 圖片容器 -->
   <div class="image-container">
-    <img src="images/show-close-tab-button-screenshot.png" alt="show close tab button screenshot">
+    <img src="images/show-pocket-button-screenshot.png" alt="show pocket button screenshot">
   </div>
     <p>
-The show-close-tab-button extension shows a close button on each active tab to close it. You can close the current tab with a simple click of a button.
+The Show Pocket Button is an open-source MIT-licensed browser extension designed to shows a Save to Pocket button and a close tab button on every active tab on a web page. After installing it, you no longer have to search for the pocket button in layers of menus. You can save web pages in your pocket by just clicking a button.
 
-Show Close Tab Button doesn't show ads and doesn't send user's data. 
+Show Pocket Button doesn't show ads and doesn't send user's data. 
     
     </p>
   </div>
