@@ -173,7 +173,13 @@ section::after {
   <nav>
     <ul>
       <li><a href="https://github.com/showclosetabbutton">GitHub</a></li>
-    <!--  <li><a href="#">Twitter</a></li> -->
+      <li><a href="https://x.com/showclosetabbut">Twitter</a></li> 
+     
+    </ul>
+    <h1>More extensions by zhihaushiu</h1>
+    <ul>
+      <li><a href="https://github.com/showclosetabbutton">GitHub</a></li>
+      <li><a href="https://x.com/showclosetabbut">Twitter</a></li> 
      
     </ul>
   </nav>
@@ -182,7 +188,7 @@ section::after {
  <h1>How to show close tab button on each active tab?</h1>
     <p>Install Show Close Tab Button browser extension.</p>
     <div class="button-container">
-    <button class="button" onclick="window.location.href = 'https://www.example.com'">
+    <button class="button" onclick="window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/show-close-tab-button/'">
       <img src="images/firefox-logo.png" alt="firefox logo"> Show Close Tab Button for Firefox    </button>
     <button class="button" onclick="window.location.href = 'https://paypal.me/zhihaushiu'">
       <img src="images/paypal-logo.png" alt="paypal logo"> Paypal Me
