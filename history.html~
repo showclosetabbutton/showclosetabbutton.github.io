@@ -62,6 +62,7 @@ Show Close Tab Button doesn't show ads and doesn't send user's data.
   <div class="image-container">
     <img src="images/show-close-tab-button-screenshot.png" alt="show close tab button screenshot">
   </div>
+      <a href="index.html" style="color: white;">Back to home</a> 
   
   </article>
 
