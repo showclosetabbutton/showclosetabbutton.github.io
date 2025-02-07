@@ -24,7 +24,6 @@ text-shadow: 2px 2px orange; display: flex; align-items: center; font-size: 2rem
 nav {
   float: left;
   width: 30%;
-  height: 700px; /* only for demonstration, should be removed */
   background: rgba(234,197,100,255);
   padding: 20px;
 }
@@ -40,12 +39,16 @@ article {
   padding: 20px;
   width: 70%;
   background-color: rgba(40,158,144,255);
-  height: 700px; /* only for demonstration, should be removed */
 }
 
 span.version{
 	border-bottom:1px dotted black;
 }
+section {
+  display: flex;
+  align-items: stretch; /* 讓 nav 和 article 保持相同高度 */
+}
+
 
 /* Clear floats after the columns */
 section::after {
@@ -65,9 +68,27 @@ section::after {
       width: 100%; /* 寬度佔滿全螢幕 */
     }/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  nav, article {
+  section {
+    flex-direction: column; /* 變成直向排列 */
+  }
+  article {
     width: 100%;
-    height: auto;
+    height: auto !important;
+  }
+  nav {
+    width: 100%;
+    height: auto !important; /* 強制讓 nav 根據內容自適應 */
+    min-height: unset !important; /* 移除任何 min-height 限制 */
+    overflow: visible; /* 確保內容不被截斷 */
+  }
+}
+/* 電腦版設定固定高度 */
+@media (min-width: 601px) {
+  nav {
+    height: 700px; /* 只在大螢幕時使用固定高度 */
+  }
+  article{
+    height: 700px; /* only for demonstration, should be removed */
   }
 }
  /* 調整文字與圖片大小，使其更適應不同螢幕 */

@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" href="main.css">
 	 <link rel="icon" href="images/favicon.png" type="image/png">
-<title>Show Close Tab Button</title>
+<title>Show Close Tab Button History</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,7 +18,7 @@
   </h2></header>
 
 <section>
-  <nav style="1700px">
+	<nav style="height:1700px">
     <ul>
       <li><a href="https://github.com/showclosetabbutton">GitHub</a></li>
       <li><a href="https://x.com/showclosetabbut">Twitter</a></li> 
@@ -34,7 +34,7 @@
     </ul>
   </nav>
   
-  <article style="1700px">
+  <article style="height:1700px">
  <h1>History</h1>
  <span class='version'>V1.1</span>
     <p>

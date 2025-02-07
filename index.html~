@@ -18,17 +18,17 @@
   </h2></header>
 
 <section>
-  <nav style="height:1331px">
+	<nav style="height:1331px">
     <ul>
       <li><a href="https://github.com/showpocketbutton">GitHub</a></li>
       <li><a href="https://x.com/showpocketbut">Twitter</a></li> 
+      <li><a href="help.html">Help</a></li> 
       <li><a href="history.html">History</a></li> 
      
     </ul>
     <h1>More extensions by zhihaushiu</h1>
     <ul>
       <li><a href="https://addons.mozilla.org/en-US/firefox/addon/show-pocket-button/">Show Pocket Button</a></li>
-      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/show-close-tab-button/">Show Close Tab Button</a></li>
       <li><a href="https://addons.mozilla.org/en-US/firefox/addon/duplicate-tab-for-fx-mobile/">Duplicate Tab</a></li> 
       <li><a href="https://addons.mozilla.org/en-US/firefox/addon/show-alias/">Show Alias</a></li> 
      
@@ -36,11 +36,11 @@
   </nav>
   
   <article style="height:1331px">
- <h1>How to show pocket button on each active tab?</h1>
-    <p>Install Show Pocket Button browser extension.</p>
+ <h1>How to show close tab button on each active tab?</h1>
+    <p>Install Show Close Tab Button browser extension.</p>
     <div class="button-container">
-    <button class="button" onclick="window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/show-pocket-button/'">
-      <img src="images/firefox-logo.png" alt="firefox logo"> Show Pocket Button for Firefox    </button>
+    <button class="button" onclick="window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/show-close-tab-button/'">
+      <img src="images/firefox-logo.png" alt="firefox logo"> Show Close Tab Button for Firefox    </button>
     <button class="button" onclick="window.location.href = 'https://paypal.me/zhihaushiu'">
       <img src="images/paypal-logo.png" alt="paypal logo"> Paypal Me
     </button>

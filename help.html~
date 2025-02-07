@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="main.css">
+	 <link rel="icon" href="images/favicon.png" type="image/png">
+<title>Show Pocket Button Help</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+
+<header>
+ <h2 class="banner">
+    <img src="images/logo.png" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
+    Show Pocket Button
+  </h2></header>
+
+<section>
+	<nav style="height:2712px">
+    <ul>
+      <li><a href="https://github.com/showpocketbutton">GitHub</a></li>
+      <li><a href="https://x.com/showpocketbut">Twitter</a></li> 
+      <li><a href="index.html">Back to home</a></li> 
+     
+    </ul>
+    <h1>More extensions by zhihaushiu</h1>
+    <ul>
+      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/show-pocket-button/">Show Pocket Button</a></li>
+      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/duplicate-tab-for-fx-mobile/">Duplicate Tab</a></li> 
+      <li><a href="https://addons.mozilla.org/en-US/firefox/addon/show-alias/">Show Alias</a></li> 
+     
+    </ul>
+  </nav>
+  
+  <article style="height:2712px">
+ <h1>How to use Show Close Tab button?</h1>
+    <p>1. Click the extension button to display the settings screen.</p>
+  <div class="image-container">
+    <img src="images/screenshot1.png" alt="show settings screen screenshot">
+  </div>
+    <p>2. After clicking the drop-down menu and selecting the button you need, press the + button on the right to add a new button.</p>
+  <div class="image-container">
+    <img src="images/screenshot2.png" alt="show settings screen screenshot">
+  </div>
+    <p>3. After adding a button, you can select the position of the button on the web page and the horizontal or vertical arrangement of the button, and then click the Apply button to complete the settings.</p>
+  <div class="image-container">
+    <img src="images/screenshot3.png" alt="show settings screen screenshot">
+  </div>
+    <p>4. All buttons are displayed on the web page</p>
+  <div class="image-container">
+    <img src="images/screenshot4.png" alt="show settings screen screenshot">
+  </div>
+  
+  </article>
+
+</section>
+
+<footer>
+  <p>
+  Copyright © 2025 zhihaushiu's studio. All rights reserved.
+  </p>
+
+</footer>
+
+</body>
+</html>
+
