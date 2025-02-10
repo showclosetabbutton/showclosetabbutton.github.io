@@ -14,7 +14,7 @@
 <header>
  <h2 class="banner">
     <img src="images/logo.png" alt="Logo" >
-    Show Close Tab Button
+    Show Close Tab Button History
   </h2></header>
 
 <section>
@@ -36,6 +36,14 @@
   
   <article style="height:1700px">
  <h1>History</h1>
+ <span class='version'>V1.5.2</span>
+    <ul>
+<li>Remove button limit</li>
+<li>Add scroll to top button</li>
+<li>Add page up button</li>
+<li>Add page down button</li>
+<li>Add scroll to bottom button</li>
+    </ul>
  <span class='version'>V1.1</span>
     <p>
     The show-close-tab-button extension shows a close button or some useful buttons on each active tab. And you can add buttons and set the arrangement and position of buttons yourself.
