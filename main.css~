@@ -7,25 +7,40 @@ body {
   margin: 0px;
 }
 
+/*style social media icon*/
+.fa-github, .fa-twitter{
+  color: white;
+  margin-right:8px;
+  font-size:16px;
+}
+
 /* Style the header */
 header {
   background-color:rgba(244,161,95,255);
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  font-size: 35px;
+  font-size: 12px;
   color: rgba(231,110,83,255);
 }
 
-h2.banner{
-text-shadow: 2px 2px orange; display: flex; align-items: center; font-size: 2rem;
+h1.banner{
+text-shadow: 2px 2px orange; display: flex; align-items: center; font-size: 26px;
+margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.logo{
+margin-right: 7px;margin-left: 8px;
+height: 26px;
+  width: 26px;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
+  width: 20%;
   background: rgba(234,197,100,255);
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Style the list inside the menu */
@@ -34,10 +49,42 @@ nav ul {
   padding: 0;
 }
 
+nav ul .active{
+	padding: 10px;
+	background: #8B8000;
+}
+
+nav ul .none-active{
+	padding: 10px;
+	/*background: #8B8000;*/
+}
+
+nav ul .none-active:hover {
+    background-color: lightgrey; /* 滑鼠懸停時變色 */
+  }
+
+nav ul .active a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+
+nav ul .none-active a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	padding: 10px;
+	/*color: white;*/
+}
+
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: rgba(40,158,144,255);
 }
 
@@ -48,7 +95,6 @@ section {
   display: flex;
   align-items: stretch; /* 讓 nav 和 article 保持相同高度 */
 }
-
 
 /* Clear floats after the columns */
 section::after {
@@ -73,13 +119,23 @@ section::after {
   }
   article {
     width: 100%;
-    height: auto;
+    height: auto !important;
   }
   nav {
     width: 100%;
     height: auto !important; /* 強制讓 nav 根據內容自適應 */
     min-height: unset !important; /* 移除任何 min-height 限制 */
     overflow: visible; /* 確保內容不被截斷 */
+  }
+ .horizontal-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .horizontal-list li {
+    margin: 0 0px; /* Adjust spacing between items */
   }
 }
 /* 電腦版設定固定高度 */
@@ -89,6 +145,9 @@ section::after {
   }
   article{
     height: 700px; /* only for demonstration, should be removed */
+  }
+ .horizontal-list {
+margin: 0px;
   }
 }
  /* 調整文字與圖片大小，使其更適應不同螢幕 */
