@@ -17,17 +17,18 @@
   </h1></header>
 
 <section>
-	<nav style="height:1737px">
+	<nav>
     <ul class="horizontal-list">
-      <li class="highlight"><a href="index.html">Home</a></li> 
-      <li><a href="help.html">Help</a></li> 
-      <li><a href="faq.html">FAQ</a></li> 
-      <li><a href="history.html">History</a></li> 
+      <li class="active"><a href="index.html">Home</a></li> 
+      <li class="none-active"><a href="blog.html">Blog</a></li> 
+      <li class="none-active"><a href="help.html">Help</a></li> 
+      <li class="none-active"><a href="faq.html">FAQ</a></li> 
+      <li class="none-active"><a href="history.html">History</a></li> 
      
     </ul>
   </nav>
   
-  <article style="height:1737px">
+  <article>
  <h2>How to show close tab button on each active tab?</h2>
     <p>Install <strong>Show Close Tab Button</strong> browser extension.</p>
     <div class="button-container">
