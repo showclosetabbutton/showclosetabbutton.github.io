@@ -70,7 +70,7 @@
 	    </li>
     </ol>
     <h4>
-	    Use pocket button to save webpage to pocket click count</h4>
+	    Use pocket button to save webpage to pocket click count:2</h4>
     <ol>
 	    <li>
 		    Click the pocket button
@@ -82,12 +82,6 @@
 		    Click the add tags button
   <div class="image-container">
     <img src="images/blog/pocket-button-click-2.png" alt="click the add tags button screenshot">
-  </div>
-	    </li>
-	    <li>
-		    Click the close tab button
-  <div class="image-container">
-    <img src="images/blog/pocket-button-click-3.png" alt="click the close tab button screenshot">
   </div>
 	    </li>
     </ol>
