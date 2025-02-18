@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="/main.css">
+	 <link rel="icon" href="/images/favicon.png" type="image/png">
+<title>{{ page.title }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+ <h1 class="banner">
+    <img class="logo" src="/images/logo.png" alt="Logo">
+    {{ page.banner | default: layout.banner | default: site.banner | default: "Default Banner" }}
+  </h1></header>
+
+<section>
+<nav>
+  <ul class="horizontal-list">
+    <li class="{% if page.url == '/' %}active{% else %}none-active{% endif %}">
+      <a href="/">Home</a>
+    </li> 
+    <li class="{% if page.url contains '/blog/' %}active{% else %}none-active{% endif %}">
+      <a href="/blog/">Blog</a>
+    </li> 
+    <li class="{% if page.url contains '/help/' %}active{% else %}none-active{% endif %}">
+      <a href="/help/">Help</a>
+    </li> 
+    <li class="{% if page.url contains '/faq/' %}active{% else %}none-active{% endif %}">
+      <a href="/faq/">FAQ</a>
+    </li> 
+    <li class="{% if page.url contains '/history/' %}active{% else %}none-active{% endif %}">
+      <a href="/history/">History</a>
+    </li> 
+  </ul>
+</nav>  
+  <article>
+     {{ content }}
+  </article>
+
+</section>
+
+<footer>
+  <p>
+  Copyright © 2025 zhihaushiu's studio. All rights reserved.
+  </p>
+  <p>
+	<a href="https://x.com/showpocketbut" class="fa fa-twitter"></a>
+	<a href="https://github.com/showpocketbutton" class="fa fa-github"></a>
+  </p>
+
+</footer>
+
+</body>
+</html>
+
