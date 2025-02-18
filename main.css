@@ -54,12 +54,12 @@ nav ul {
 }
 
 nav ul .active{
-	padding: 4px;
+	padding: 2px;
 	background: #8B8000;
 }
 
 nav ul .none-active{
-	padding: 4px;
+	padding: 2px;
 	/*background: #8B8000;*/
 }
 
