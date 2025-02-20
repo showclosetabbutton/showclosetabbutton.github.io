@@ -22,7 +22,7 @@ tags:
 
 7.Press the refresh devices button if no device is found.
 
-8.Press the connect button to connect the device, then press the device.
+8.Press the **connect** button to connect the device, then press the device.
 <div class="image-container">
   <img src="/images/blog/desktop-firefox-refresh-devices.png" alt="desktop-firefox-refresh-devices screenshot">
 </div>

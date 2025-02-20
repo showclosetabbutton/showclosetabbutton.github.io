@@ -42,3 +42,6 @@ layout: default
 
 # {{ page.title }}
 ```
+
+### Reference
+- [jekyll docs](https://jekyllrb.com/docs/)
