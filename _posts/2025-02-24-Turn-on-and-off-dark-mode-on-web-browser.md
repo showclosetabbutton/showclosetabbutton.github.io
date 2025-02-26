@@ -4,6 +4,7 @@ title:  "Turn on and off dark mode on web browser"
 date:   2025-02-24 15:18:59 +0800
 tags: 
  - tips
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 

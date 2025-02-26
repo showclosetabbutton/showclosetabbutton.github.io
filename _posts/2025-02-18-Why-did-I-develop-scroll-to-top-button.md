@@ -4,6 +4,8 @@ title:  "Why did I develop scroll to top button?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - development
+ - why-did-i-develop-show-close-tab-button
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ### Because I don't want to keep scrolling

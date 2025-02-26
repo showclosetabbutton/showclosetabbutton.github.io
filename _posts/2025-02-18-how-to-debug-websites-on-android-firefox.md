@@ -4,6 +4,7 @@ title:  "How to debug websites on android firefox?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - site
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ### website debugging steps on android (Google Pixel) firefox

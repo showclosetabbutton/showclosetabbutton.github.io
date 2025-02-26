@@ -4,6 +4,8 @@ title:  "Why did I develop Show Close Tab Firefox extension?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - development
+ - why-did-i-develop-show-close-tab-button
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ### The default close tab button is hard to use

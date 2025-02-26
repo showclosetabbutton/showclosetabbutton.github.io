@@ -4,6 +4,7 @@ title:  "How to add GitHub.io website to Google search console?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - site 
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ### Why add GitHub.io to Google search console?

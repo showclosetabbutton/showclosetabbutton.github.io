@@ -4,6 +4,7 @@ title:  "How to debug extension installed on Android Firefox?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - development
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ###  (on Desktop)

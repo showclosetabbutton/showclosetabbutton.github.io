@@ -4,6 +4,8 @@ title:  "Why did I develop duplicate tab extension?"
 date:   2025-02-18 15:18:59 +0800
 tags: 
  - development
+ - why-did-i-develop-show-close-tab-button
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 ### Android Firefox does not have this button, which is inconvenient.

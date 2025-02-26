@@ -5,6 +5,7 @@ date:   2025-02-18 15:18:59 +0800
 tags: 
  - seo
  - jekyll
+permalink: /blog/:path
 ---
 ## {{ page.title }}
 

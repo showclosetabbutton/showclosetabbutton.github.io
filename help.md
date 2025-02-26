@@ -7,6 +7,9 @@ permalink: /help/
 
 ## How to use [Show Close Tab button](/)?
 
+<iframe width="315" height="560" src="https://www.youtube.com/embed/ML22aRbaoQU" title="YouTube video player" frameborder="0&quot;" allowfullscreen=""></iframe>
+
+
 1.Click **the extension button** to display the settings screen.
 
 <div class="image-container">

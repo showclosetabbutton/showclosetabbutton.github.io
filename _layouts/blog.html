@@ -2,22 +2,44 @@
 layout: default
 banner: Show Close Tab Button Blog
 ---
-<ul>
   {% assign tags = site.tags %}
+<ul>
+  {% for tag in tags %}
+	  {% if tag[0] == "why-did-i-develop-show-close-tab-button" %}
+	    <li>
+	      <h3>{{ tag[0] | capitalize }}</h3>
+	      <ul>
+		{% assign posts_by_tag = site.posts | where: "tags", tag[0] | sort: 'date' %}
+		{% for post in posts_by_tag reversed %}
+		  <li>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
+		    <p>Posted on: {{ post.date | date: "%B %d, %Y" }}</p>
+		  </li>
+		{% endfor %}
+	      </ul>
+	    </li>
+	  {% endif %}
+  {% endfor %}
+</ul>
+
+<hr>
+<ul>
 
   {% for tag in tags %}
-    <li>
-      <h3>{{ tag[0] | capitalize }}</h3>
-      <ul>
-        {% assign posts_by_tag = site.posts | where: "tags", tag[0] | sort: 'date' %}
-        {% for post in posts_by_tag reversed %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <p>Posted on: {{ post.date | date: "%B %d, %Y" }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
+	  {% if tag[0] != "why-did-i-develop-show-close-tab-button" %}
+	    <li>
+	      <h3>{{ tag[0] | capitalize }}</h3>
+	      <ul>
+		{% assign posts_by_tag = site.posts | where: "tags", tag[0] | sort: 'date' %}
+		{% for post in posts_by_tag reversed %}
+		  <li>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
+		    <p>Posted on: {{ post.date | date: "%B %d, %Y" }}</p>
+		  </li>
+		{% endfor %}
+	      </ul>
+	    </li>
+	  {% endif %}
   {% endfor %}
 </ul>
 
